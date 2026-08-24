@@ -1,12 +1,16 @@
 # Evidence — Day 22: LangSmith + Prompt Versioning
 
+## Nộp bài
+
+- **LangSmith project URL**: https://smith.langchain.com/o/d1e7551d-47f6-4ea8-b7f2-ddc15f6b23dc/projects/p/b22ef663-aeb1-4029-b9e1-017bd3134eb2
+
 ## Danh sách tệp
 
 | Tệp | Nội dung |
 |---|---|
-| `01_langsmith_traces.png` | *(cần tự chụp)* Ảnh chụp LangSmith dashboard, ≥50 traces |
+| `01_langsmith_traces.png` | Ảnh chụp trang Runs của project `day22-lab`, hiển thị các trace thật |
 | `01_run_console.txt` | Log console chạy `01_langsmith_rag_pipeline.py` — 50 câu hỏi/đáp thật |
-| `02_prompt_hub.png` | *(cần tự chụp)* Ảnh chụp Prompt Hub với 2 phiên bản prompt |
+| `02_prompt_hub.png` | Ảnh chụp Prompt Hub với 2 phiên bản prompt |
 | `02_ab_routing_log.txt` | Log console A/B routing 50 câu, có nhãn v1/v2 và URL push lên Hub |
 | `03_ragas_scores.txt` | Bảng so sánh điểm RAGAS V1 vs V2 |
 | `03_ragas_report.json` | Bản sao `data/ragas_report.json` |
