@@ -1,0 +1,16 @@
+=== RAGAS Evaluation — Bảng so sánh V1 vs V2 ===
+
+Metric                                 V1         V2  Winner
+=================================================================
+faithfulness                       0.9610     0.9403  <- V1
+answer_relevancy                   0.9136     0.9021  <- V1
+context_recall                     1.0000     1.0000  <- Hòa
+context_precision                  0.9450     0.9417  <- V1
+
+target_met (faithfulness >= 0.8): True  (best=0.9610)
+Bonus: faithfulness >= 0.9 o CA HAI phien ban: True
+
+=== Ghi chu ===
+V1 (concise style) va V2 (structured expert style) deu chay du 50/50 QA pairs,
+ca 4 metric (faithfulness, answer_relevancy, context_recall, context_precision)
+deu co 50/50 valid samples (khong loi timeout anh huong ket qua cuoi).

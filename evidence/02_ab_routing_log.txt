@@ -1,0 +1,213 @@
+============================================================
+  Bước 2: Prompt Hub & A/B Routing
+============================================================
+✅ Config OK  |  Provider: OPENAI  |  Project: day22-lab
+✅ Đã push V1 → https://smith.langchain.com/prompts/nguyennhatminh-rag-prompt-v1/0e11a226?organizationId=d1e7551d-47f6-4ea8-b7f2-ddc15f6b23dc
+✅ Đã push V2 → https://smith.langchain.com/prompts/nguyennhatminh-rag-prompt-v2/0d6072bb?organizationId=d1e7551d-47f6-4ea8-b7f2-ddc15f6b23dc
+↓ Đã pull 'nguyennhatminh-rag-prompt-v1' từ Hub
+↓ Đã pull 'nguyennhatminh-rag-prompt-v2' từ Hub
+🔨 Đang tạo FAISS index từ 107 chunks ...
+✅ FAISS vectorstore đã sẵn sàng.
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0000] [prompt-v2] Q: What are the three main types of machine learning?
+            A: The three main types of machine learning are supervised learning, unsupervised learning, a
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0001] [prompt-v2] Q: What is overfitting in machine learning?
+            A: Overfitting in machine learning occurs when a model learns the training data too well, inc
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0002] [prompt-v1] Q: Explain the bias-variance tradeoff.
+            A: The bias-variance tradeoff is a key concept in machine learning that describes the balance
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0003] [prompt-v1] Q: How does regularization prevent overfitting?
+            A: Regularization prevents overfitting by adding penalty terms to the loss function, which di
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0004] [prompt-v2] Q: What is cross-validation?
+            A: Cross-validation is a model evaluation technique that provides a more reliable estimate of
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0005] [prompt-v2] Q: What is backpropagation?
+            A: Backpropagation is the core algorithm used for training neural networks. It computes gradi
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0006] [prompt-v2] Q: What are Convolutional Neural Networks primarily used f
+            A: Convolutional Neural Networks (CNNs) are primarily used for image classification, object d
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0007] [prompt-v2] Q: How do LSTM networks address the vanishing gradient pro
+            A: LSTM networks address the vanishing gradient problem by using a specialized architecture t
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0008] [prompt-v1] Q: What activation functions are commonly used in neural n
+            A: Common activation functions in neural networks include ReLU, sigmoid, and tanh. Newer vari
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0009] [prompt-v2] Q: What is the role of pooling layers in CNNs?
+            A: The role of pooling layers in Convolutional Neural Networks (CNNs) is to perform spatial d
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0010] [prompt-v1] Q: What is the transformer architecture?
+            A: The transformer architecture is a model used in natural language processing and deep learn
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0011] [prompt-v1] Q: What are word embeddings?
+            A: Word embeddings are dense vector representations of words that capture their semantic mean
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0012] [prompt-v2] Q: What is transfer learning in NLP?
+            A: Transfer learning in NLP refers to the practice of pre-training large models on extensive 
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0013] [prompt-v1] Q: How does BERT handle language understanding?
+            A: BERT handles language understanding through bidirectional transformer training, which allo
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0014] [prompt-v2] Q: What is self-attention in transformers?
+            A: Self-attention in transformers is a mechanism that allows models to weigh the importance o
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0015] [prompt-v1] Q: What is GPT and how is it trained?
+            A: GPT (Generative Pre-trained Transformer) is a family of autoregressive language models dev
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0016] [prompt-v2] Q: What is instruction tuning?
+            A: Instruction tuning is a supervised fine-tuning technique used to enhance the usefulness an
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0017] [prompt-v2] Q: What is RLHF?
+            A: Reinforcement Learning from Human Feedback (RLHF) is a technique used to align large langu
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0018] [prompt-v1] Q: What is chain-of-thought prompting?
+            A: Chain-of-thought prompting is a technique that enhances reasoning in language models by en
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0019] [prompt-v2] Q: What is the context length of GPT-4?
+            A: The context length of GPT-4 is up to 128K tokens. This allows the model to process and gen
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0020] [prompt-v1] Q: What is Retrieval-Augmented Generation?
+            A: Retrieval-Augmented Generation (RAG) is an approach that enhances language models with ext
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0021] [prompt-v1] Q: What are the main components of a RAG pipeline?
+            A: The main components of a RAG pipeline are a retriever that searches a document store and a
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0022] [prompt-v2] Q: What is dense retrieval?
+            A: Dense retrieval is a neural approach to document retrieval that surpasses traditional keyw
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0023] [prompt-v1] Q: Why is chunking strategy important in RAG?
+            A: Chunking strategy is important in RAG because it significantly impacts retrieval precision
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0024] [prompt-v2] Q: What advanced RAG techniques exist beyond basic retriev
+            A: Advanced RAG techniques beyond basic retrieval include re-ranking, query expansion, HyDE (
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0025] [prompt-v1] Q: What are vector databases used for?
+            A: Vector databases are used for storing and querying high-dimensional vector embeddings to e
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0026] [prompt-v2] Q: What is FAISS?
+            A: FAISS (Facebook AI Similarity Search) is a library designed for efficient vector search, s
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0027] [prompt-v2] Q: How do text embeddings capture semantic meaning?
+            A: Text embeddings capture semantic meaning by converting text into numerical vectors, where 
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0028] [prompt-v2] Q: What is HNSW?
+            A: HNSW (Hierarchical Navigable Small World) is a graph-based algorithm designed for approxim
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0029] [prompt-v2] Q: What is hybrid search in vector databases?
+            A: Hybrid search in vector databases is a method that combines the strengths of both neural a
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0030] [prompt-v2] Q: What is LangChain?
+            A: LangChain is an open-source framework designed to simplify the development of applications
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0031] [prompt-v2] Q: What is LangChain Expression Language (LCEL)?
+            A: LangChain Expression Language (LCEL) is a declarative syntax designed for composing LangCh
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0032] [prompt-v1] Q: What is LangGraph?
+            A: LangGraph is an extension of LangChain designed for building stateful, multi-actor applica
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0033] [prompt-v2] Q: What memory types does LangChain support?
+            A: LangChain supports four memory types: ConversationBufferMemory, ConversationSummaryMemory,
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0034] [prompt-v1] Q: What are LangChain retrievers?
+            A: LangChain retrievers are components that fetch relevant documents based on a user query. T
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0035] [prompt-v2] Q: What is LangSmith?
+            A: LangSmith is a developer platform designed for building production-grade LLM (Large Langua
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0036] [prompt-v2] Q: What information do LangSmith traces capture?
+            A: LangSmith traces capture inputs, outputs, latency, token usage, and errors for every compo
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0037] [prompt-v1] Q: What is the LangSmith Prompt Hub?
+            A: The LangSmith Prompt Hub is a centralized repository for managing, storing, versioning, an
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0038] [prompt-v2] Q: How does LangSmith help monitor production LLM applicat
+            A: LangSmith helps monitor production LLM applications by providing detailed metrics such as 
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0039] [prompt-v2] Q: What are LangSmith datasets used for?
+            A: LangSmith datasets are used for systematic evaluation of model versions or prompt changes.
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0040] [prompt-v2] Q: What is RAGAS?
+            A: RAGAS (Retrieval Augmented Generation Assessment) is a framework specifically designed for
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0041] [prompt-v1] Q: How does RAGAS compute faithfulness?
+            A: RAGAS computes faithfulness by extracting claims from an answer and checking whether each 
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0042] [prompt-v2] Q: What is answer relevancy in RAGAS?
+            A: Answer relevancy in RAGAS measures how well the generated answer addresses the original qu
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0043] [prompt-v2] Q: What is context recall in RAGAS?
+            A: Context recall in RAGAS measures how thoroughly the retrieved passages cover the informati
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0044] [prompt-v1] Q: What inputs does RAGAS evaluation require?
+            A: RAGAS evaluation requires user queries, generated answers, retrieved contexts (a list of p
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0045] [prompt-v2] Q: What is Guardrails AI?
+            A: Guardrails AI is an open-source framework designed to add safety and validation layers to 
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0046] [prompt-v1] Q: What is PII and why is it important to detect in LLM re
+            A: PII stands for Personally Identifiable Information, which includes data like names, email 
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0047] [prompt-v1] Q: What does structured output validation ensure?
+            A: Structured output validation ensures that LLM responses conform to expected data formats a
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0048] [prompt-v2] Q: What is Constitutional AI?
+            A: Constitutional AI is an approach to aligning language models with ethical principles. It i
+
+Failed to use model_dump to serialize <class 'langchain_core.vectorstores.base.VectorStoreRetriever'> to JSON: PydanticSerializationError(Unable to serialize unknown type: <class 'langchain_community.vectorstores.faiss.FAISS'>)
+[req-0049] [prompt-v2] Q: What are common AI safety concerns with LLMs?
+            A: Common AI safety concerns with large language models (LLMs) include hallucination, toxicit
+
+
+📊 Routing: V1=19 câu | V2=31 câu | Tổng=50
+✅ Bước 2 hoàn thành! Kiểm tra Prompt Hub và traces trên LangSmith.

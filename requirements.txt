@@ -1,28 +1,30 @@
 # ── LangChain core ────────────────────────────────────────────────
-langchain>=0.3.0
-langchain-core>=0.3.0
-langchain-community>=0.3.0
-langchain-text-splitters>=0.3.0
+# Ghim < 1.0: LangChain 1.x bỏ langchain_community.chat_models.vertexai
+# mà ragas 0.4.x vẫn import → ModuleNotFoundError khi chạy Bước 3.
+langchain>=0.3.0,<1.0.0
+langchain-core>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langchain-text-splitters>=0.3.0,<0.4.0
 
 # ── LLM Providers (cài tất cả để hỗ trợ đa provider) ─────────────
-langchain-openai>=0.3.0          # OpenAI + OpenRouter
-langchain-anthropic>=0.1.0       # Anthropic Claude
-langchain-google-genai>=1.0.0    # Google Gemini
-langchain-ollama>=0.1.0          # Ollama (local)
+langchain-openai>=0.3.0,<1.0.0          # OpenAI + OpenRouter
+langchain-anthropic>=0.3.0,<1.0.0       # Anthropic Claude
+langchain-google-genai>=2.0.0,<3.0.0    # Google Gemini
+langchain-ollama>=0.2.0,<1.0.0          # Ollama (local)
 
 # ── LangSmith ─────────────────────────────────────────────────────
-langsmith>=0.2.0
+langsmith>=0.1.17,<0.3.0
 
 # ── Vector store ──────────────────────────────────────────────────
 faiss-cpu>=1.7.0
 
 # ── RAG Evaluation ────────────────────────────────────────────────
-ragas>=0.4.0
+ragas>=0.4.0,<0.5.0
 datasets>=2.0.0                  # required by RAGAS internally
 numpy>=1.25.0
 
 # ── Guardrails AI ─────────────────────────────────────────────────
-guardrails-ai>=0.5.0
+guardrails-ai>=0.5.0,<0.7.0  # >=0.7 needs langchain-core>=1.0, incompatible với ragas 0.4.x
 
 # ── Utilities ─────────────────────────────────────────────────────
 python-dotenv>=1.0.0
